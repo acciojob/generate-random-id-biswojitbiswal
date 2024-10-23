@@ -5,10 +5,10 @@ function makeid(l) {
 
 	for(let i = 0; i < l; i++){
 		res += charList.charAt(
-			Math.floor(Math.random * charList.length);
+			Math.floor(Math.random() * charList.length);
 		)
 	}
-	return res;
+	return res; 
 }
 
 // Do not change the code below.
